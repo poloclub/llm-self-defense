@@ -36,7 +36,7 @@ pandas==2.2.1
 pandas-stubs==2.1.4.231227
 pip==23.3.1
 protobuf==3.20.3
-pyarrow==11.0.0
+pyarrow==14.0.1
 pycparser==2.21
 pydantic==2.5.3
 PySocks==1.7.1
