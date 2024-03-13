@@ -70,7 +70,7 @@ class HarmFilter:
         elif model_name == "gpt":
             OPENAI_API_KEY =  ""
             openai.api_key = OPENAI_API_KEY
-            for response_index in tqdm(range(3)):
+            for response_index in tqdm((len(all_responses)):
                 response = all_responses[response_index]
                 prompt_eng = self.make_harm_prediction_prompt(response)
                 hf_response = self.get_gpt_response(prompt_eng)
